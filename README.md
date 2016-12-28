@@ -6,10 +6,16 @@ This is a Fortran90 code for the radial distribution function of a molecular tra
 
 Here's how to run the code:
 
-1) Install the xtc-library (http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library)
-2) Copy the xtc-interface.f90 file into the appropriate folder
-3) Edit the shell script to input the information you want inputted into the fortran code
+1) Install the xtc-library (http://www.gromacs.org/Developer_Zone/Programming_Guide/XTC_Library) 
+
+2) Copy the xtc-interface.f90 file into the appropriate folder 
+
+3) Edit the shell script to input the information you want inputted into the fortran code 
+
 4) gfortran -c xtc-interface.f90 -lxdrfile 
-5) gfortran xtc-interface.o rdf.f90 -lxdrfile -o rdf.x
-6) chmod +x rdf.sh
-7) ./rdf.sh
+
+5) gfortran xtc-interface.o rdf.f90 -lxdrfile -o rdf.x 
+
+6) chmod +x rdf.sh 
+
+7) ./rdf.sh 
