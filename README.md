@@ -2,7 +2,7 @@
 
 Hello!
 
-This is a Fortran90 code for the radial distribution function of a molecular trajectory averaged over time. This code uses molecular center of masses and periodic boundary conditions (3x3x3) for the calculation and uses unformatted files (gromacs: xtc). The part that reads the xtc format was written by James W. Barnett <jbarnet4@tulane.edu>.The code has comments all over, but feel free to reach out to me at <leejunta@grinnell.edu> if you have any more questions.
+This is a Fortran90 code for the radial distribution function of a molecular trajectory averaged over time. This code uses molecular center of masses and periodic boundary conditions (3x3x3) for the calculation and uses unformatted files (gromacs: xtc). The part that reads the xtc format was written by James W. Barnett <jbarnet4@tulane.edu>.The code has comments all over, but feel free to reach out to me at <leejunta@grinnell.edu> if you have any more questions. Special thanks to Roger Rousseau (PNNL), David Cantu (PNNL), and Mal Soon Lee (PNNL) for assisting me in developing this code.
 
 Here's how to run the code:
 
@@ -19,3 +19,5 @@ Here's how to run the code:
 6) chmod +x rdf.sh 
 
 7) ./rdf.sh 
+
+Source code available at https://github.com/leejunta/Radial-Distribution-Function/
